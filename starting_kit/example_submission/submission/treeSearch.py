@@ -1,5 +1,3 @@
-import pypownet.agent
-import pypownet.environment
 import pypownet.environment
 
 """
@@ -15,7 +13,8 @@ Concerning the preprocessing, we want to have some good data set, so we did a fi
 
 """
 
-class Submission(pypownet.agent.Agent):
+
+class TreeSearchLineServiceStatus(Agent):
     """ Exhaustive tree search of depth 1 limited to no action + 1 line switch activation
     """
 
